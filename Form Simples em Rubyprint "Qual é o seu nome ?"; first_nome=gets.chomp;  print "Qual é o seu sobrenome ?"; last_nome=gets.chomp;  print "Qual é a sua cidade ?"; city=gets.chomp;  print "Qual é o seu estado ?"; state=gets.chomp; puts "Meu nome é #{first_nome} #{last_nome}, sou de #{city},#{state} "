@@ -1,0 +1,12 @@
+print "Qual é o seu nome ?";
+first_nome=gets.chomp;
+
+print "Qual é o seu sobrenome ?";
+last_nome=gets.chomp;
+
+print "Qual é a sua cidade ?";
+city=gets.chomp;
+
+print "Qual é o seu estado ?";
+state=gets.chomp;
+puts "Meu nome é #{first_nome} #{last_nome}, sou de #{city},#{state} "
